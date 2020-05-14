@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>FootballShop</title>
+  </head>
+  <body class="">
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="navbar-collapse">
+        <div class="col-md-7 d-lg-block d-sm-none">
+          <a class="navbar-brand col-lg-5" href="#">Tel:+374 000000</a>
+        </div>
+        <form class="col-md-5">
+          <div class="form-row align-items-center">
+            <div class="col-md-4 col-sm-6 my-1">
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>AM</option>
+                <option value="RU">RU</option>
+                <option value="EN">EN</option>
+              </select>
+            </div>
+            <div class="col-lg-4 col-sm-6 my-1">
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>$</option>
+                <option value="RU">&euro;</option>
+               
+              </select>
+            </div>
+            <div class="col-lg-4 m-auto d-lg-block d-sm-none">
+              <button type="button" class="btn btn-info col-lg-12">
+                Wishlist <span class="badge badge-dark bg-danger">2</span>
+              </button>  
+            </div>          
+          </div>
+        </form>         
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="navbar-collapse d-sm-flex">
+        <div class="col-lg-6 col-sm-9">
+           <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+ <a class="navbar-brand" href="#">
+   <a href="index.html"><img src="img/unnamed.jpg" width="250"  alt=""></a>
+     
+  </a></nav>
+        </div>
+        <div class="col-lg-6 col-sm-3 d-lg-flex justify-content-around">
+          <div class="">
+            <form class="form-inline my-2 my-lg-0 d-lg-inline-block d-sm-none">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              My account
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" data-toggle="modal" data-target="LoginModal" href="#">Login</a>
+              <a class="dropdown-item" data-toggle="modal" data-target="Modal" href="#">Register</a>
+              <a class="dropdown-item" href="#">My Orders</a>
+              <a class="dropdown-item" href="#">Account Settings</a>
+            </div>
+          </div>  
+        </div>      
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger " >
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+    <ul class="navbar-nav w-100 d-flex justify-content-between">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1200px-Flag_of_England.svg.png" width="30" >
+        England
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="shop.html">Premier Ligue</a>
+          <a class="dropdown-item" href="shop.html">National Team
+</a>
+          
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/750px-Flag_of_Spain.svg.png" width="30">
+          Spain
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="shop.html">La Liga</a>
+          <a class="dropdown-item" href="shop.html">National Team</a>
+        
+        </div>
+      </li> 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="https://cdn.webshopapp.com/shops/94414/files/52385644/flag-of-italy.jpg" width="30">
+          Italy
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="shop.html">Seria A</a>
+          <a class="dropdown-item" href="shop.html">National Team</a>
+         
+        </div>
+      </li> 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png" width="30">
+         France
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="shop.html">Ligue 1</a>
+          <a class="dropdown-item" href="shop.html">National Team</a>
+          
+        </div>
+      </li> 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png" width="30">
+         Germany
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="shop.html">Bundesliga</a>
+          <a class="dropdown-item" href="shop.html">National Team</a>
+         
+        </div>
+      </li> 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/800px-Flag_of_Portugal.svg.png" width="30">
+          Portugal
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="shop.html">Liga NOS</a>
+          <a class="dropdown-item" href="shop.html">National Team</a>
+          
+        </div>
+      </li> 
+    </ul>
+  </div>
+</nav>  
+</header>
+ <main class="bg-light" >
+  <div class="container">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+      aria-controls="pills-home" aria-selected="true">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-info-tab" data-toggle="pill" href="#pills-info" role="tab"
+      aria-controls="pills-info" aria-selected="false">Profile</a>
+  </li>
+  
+</ul>
+<div class="tab-content pt-2 pl-1" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+     <div class="row">
+      <h2 class="font-weight-bold text-uppercase text-center mx-auto text-danger">MY ACCOUNTS</h2>
+    </div>
+    <div class="row">
+      <h2 class="text-danger font-weight-bold text-uppercase ml-5">MY ORDERS</h2>
+
+    </div> 
+
+    <div class="row">
+     
+
+<div class="card">
+
+  
+  <div class="card-body">
+
+   <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Order#</th>
+      <th scope="col">Order Date</th>
+      <th scope="col">Total</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th  class="text-primary" scope="row">394383489</th>
+      <td>12/09/2018</td>
+      <td>$150</td>
+      
+    </tr>
+    <tr>
+      <th class="text-primary"  scope="row">5476543545</th>
+      <td>12/01/2009</td>
+      <td>120$</td>
+      
+    </tr>
+    <tr>
+      <th class="text-primary" scope="row">23389543</th>
+      <td>13/09/2019</td>
+      <td>$80</td>
+      
+    </tr>
+  </tbody>
+</table> 
+
+
+
+  </div>
+</div>
+
+      
+ <div class="col mx-5">
+   <div class="row justify-content-center">
+     <h2 class="font-weight-bold text-danger">RECENT ACTIVITIES</h2>
+   </div>
+   <div class="row justify-content-center">
+     <div class=" col-6 col-sm-6 col-md-12 p-2 product-card border">
+        <div class="row align-items-center">
+        <div class="col-12 col-md-4 col-lg-3">
+          <a href="product.html">
+          <img class="w-100" src="img/VfL-Wolfsburg-Home-MiniKits.png" alt>
+          </a>
+        </div>
+        <div class="col-12 col-md-4 col-lg-6">
+          <h6>
+            <a href="product.html" class="text-decoration-none">
+              Wolfsburg Jersey 2019-2020 
+            </a>
+          </h6>
+        
+           </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center h-100 text-light">
+            <div class="display-4 text-danger">$100</div>
+            <button class="btn btn-primary w-100">Add to card</button>
+          </div>
+       
+      </div>
+     </div>
+      <div class=" col-6 col-sm-6 col-md-12 p-2 product-card border">
+         <div class="row align-items-center">
+        <div class="col-12 col-md-4 col-lg-3">
+          <a href="product.html">
+          <img class="w-100" src="img/mt93032.png" alt>
+          </a>
+        </div>
+        <div class="col-12 col-md-4 col-lg-6">
+          <h6>
+            <a href="product.html" class="text-decoration-none">
+              Liverpool Home Jersey 2019-2020 
+            </a>
+          </h6>
+         
+           </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center h-100 text-light">
+            <div class="display-4 text-danger">$200</div>
+            <button class="btn btn-primary w-100">Add to card</button>
+          </div>
+       
+      </div>
+      </div>
+       <div class=" col-6 col-sm-6 col-md-12 p-2 product-card border">
+          <div class="row align-items-center">
+        <div class="col-12 col-md-4 col-lg-3">
+          <a href="product.html">
+          <img class="w-100" src="img/29473_arsenal-home-jersey-2019-20_05.png" alt>
+          </a>
+        </div>
+        <div class="col-12 col-md-4 col-lg-6">
+          <h6>
+            <a href="product.html" class="text-decoration-none">
+              Arsenal Home Jersey 2019-2020 
+            </a>
+          </h6>
+          >
+           </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center h-100 text-light">
+            <div class="display-4 text-danger">$150</div>
+            <button class="btn btn-primary w-100">Add to card</button>
+          </div>
+       
+      </div>
+       </div>
+        
+   </div>
+ </div> 
+    </div> 
+    <div class="row">
+      <h2 class="text-danger font-weight-bold text-uppercase ml-5">MY WISHLISTS</h2>
+
+    </div> 
+
+    <div class="row">
+     
+
+<div class="card">
+
+  
+  <div class="card-body">
+
+   <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Order#</th>
+      <th scope="col">Order Date</th>
+      <th scope="col">Total</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th  class="text-primary" scope="row">394383489</th>
+      <td>12/09/2018</td>
+      <td>$150</td>
+      
+    </tr>
+    <tr>
+      <th class="text-primary"  scope="row">5476543545</th>
+      <td>12/01/2009</td>
+      <td>120$</td>
+      
+    </tr>
+    <tr>
+      <th class="text-primary" scope="row">23389543</th>
+      <td>13/09/2019</td>
+      <td>$80</td>
+      
+    </tr>
+  </tbody>
+</table> 
+
+
+
+  </div>
+</div>
+
+    
+
+
+
+
+
+
+</div>
+    <div class="tab-pane fade" id="pills-info" role="tabpanel" aria-labelledby="pills-info-tab">
+                              
+    </div>
+
+
+
+
+   
+
+
+
+
+</div>
+
+    
+ </main>
+ 
+ <footer class="page-footer  pt-4 bg-danger " >
+ <div class="container  ">
+   <div class="row">
+         <div class="col-md-3 col-12 border  text-dark" ><a href=""><h5>Contact us</h5></a></div>
+         <div class="col-md-3 col-12 border text-dark" ><a href=""><h5>Live chat</h5></a></div>
+         <div class="col-md-3 col-12 border text-dark" ><a href=""><h5>Shipping</h5></a></div>
+         <div class="col-md-3 col-12 border   text-dark" ><a href=""><h5>Terms&Condition</h5></a></div>
+
+          
+       </div>
+      <div class="row">
+       
+      <hr class="clearfix w-100 d-md-none">
+
+      <div class="col-md-2 mx-auto">
+
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+         
+        </ul>
+
+      </div>
+       <hr class="clearfix w-100 d-md-none">
+
+      <div class="col-md-2 mx-auto">
+
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+         
+        </ul>
+
+      </div>
+       <hr class="clearfix w-100 d-md-none">
+
+      <div class="col-md-2 mx-auto">
+
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          
+        </ul>
+
+      </div>
+       <hr class="clearfix w-100 d-md-none">
+
+      <div class="col-md-2 mx-auto">
+
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          
+        </ul>
+
+      </div>
+       <hr class="clearfix w-100 d-md-none">
+
+      <div class="col-md-2 mx-auto">
+
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>      
+        </ul>
+      </div>
+      </div>
+</div>
+  
+ 
+  <div class="col-12 col-md-auto text-center text-danger">ⒸTumo Center For Creative Technologies</div>
+  
+</div>
+
+
+ </div>
+ </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  </body>
+</html>

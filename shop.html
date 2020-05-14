@@ -4,6 +4,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -12,6 +19,7 @@
     <title>FootballShop</title>
   </head>
   <body class="">
+    
     <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="navbar-collapse">
@@ -50,7 +58,7 @@
         <div class="col-lg-6 col-sm-9">
            <nav class="navbar navbar-expand-lg navbar-dark bg-success">
  <a class="navbar-brand" href="#">
-   <a href="index.html"><img src=" img/unnamed.jpg" width="250"  alt=""></a>
+   <a href="index.html"><img src="img/unnamed.jpg" width="250"  alt=""></a>
      
   </a></nav>
         </div>
@@ -66,10 +74,10 @@
               My account
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Login</a>
-              <a class="dropdown-item" href="#">Register</a>
+              <a class="dropdown-item"  data-toggle="modal" data-target="#modalLRForm" href="#">Login</a>
+              <a class="dropdown-item" data-toggle="modal" data-target="#modalLRForm" href="#">Register</a>
               <a class="dropdown-item" href="#">My Orders</a>
-              <a class="dropdown-item" href="#">Account Settings</a>
+              <a class="dropdown-item" href="myaccount.html">Account Settings</a>
             </div>
           </div>  
         </div>      
@@ -88,8 +96,8 @@
         England
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Premier Ligue</a>
-          <a class="dropdown-item" href="#">National Team
+          <a class="dropdown-item" href="shop.html">Premier Ligue</a>
+          <a class="dropdown-item" href="shop.html">National Team
 </a>
           
         </div>
@@ -100,8 +108,8 @@
           Spain
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">La Liga</a>
-          <a class="dropdown-item" href="#">National Team</a>
+          <a class="dropdown-item" href="shop.html">La Liga</a>
+          <a class="dropdown-item" href="shop.html">National Team</a>
         
         </div>
       </li> 
@@ -111,8 +119,8 @@
           Italy
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Seria A</a>
-          <a class="dropdown-item" href="#">National Team</a>
+          <a class="dropdown-item" href="shop.html">Seria A</a>
+          <a class="dropdown-item" href="shop.html">National Team</a>
          
         </div>
       </li> 
@@ -122,8 +130,8 @@
          France
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Ligue 1</a>
-          <a class="dropdown-item" href="#">National Team</a>
+          <a class="dropdown-item" href="shop.html">Ligue 1</a>
+          <a class="dropdown-item" href="shop.html">National Team</a>
           
         </div>
       </li> 
@@ -133,8 +141,8 @@
          Germany
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Bundesliga</a>
-          <a class="dropdown-item" href="#">National Team</a>
+          <a class="dropdown-item" href="shop.html">Bundesliga</a>
+          <a class="dropdown-item" href="shop.html">National Team</a>
          
         </div>
       </li> 
@@ -144,8 +152,8 @@
           Portugal
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Liga NOS</a>
-          <a class="dropdown-item" href="#">National Team</a>
+          <a class="dropdown-item" href="shop.html">Liga NOS</a>
+          <a class="dropdown-item" href="shop.html">National Team</a>
           
         </div>
       </li> 
@@ -264,6 +272,11 @@
       </div>
     </div>
   </form>
+  <!-- Default switch -->
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitches">
+  <label class="custom-control-label" for="customSwitches">Jerseys</label>
+</div>
 </div>
 
 
@@ -293,7 +306,7 @@
            </div>
           <div class="col-12 col-md-4 col-lg-3 text-center text-light h-100">
             <div class="display-4">$150</div>
-            <button class="btn btn-primary w-100">Add to card</button>
+            <a href="addtocard.html "><button class="btn btn-primary w-100">Add to card</button></a>
           </div>
        
       </div>
@@ -319,7 +332,7 @@
            </div>
           <div class="col-12 col-md-4 col-lg-3 text-center h-100 text-light">
             <div class="display-4">$100</div>
-            <button class="btn btn-primary w-100">Add to card</button>
+           <a href=" addtocard.html "> <button class="btn btn-primary w-100" >Add to card</button></a>
           </div>
        
       </div>
@@ -345,7 +358,7 @@
            </div>
           <div class="col-12 col-md-4 col-lg-3 text-center h-100 text-light">
             <div class="display-4">$200</div>
-            <button class="btn btn-primary w-100">Add to card</button>
+           <a href="addtocard.html "><button class="btn btn-primary w-100" >Add to card</button></a> 
           </div>
        
       </div>
@@ -371,7 +384,7 @@
            </div>
           <div class="col-12 col-md-4 col-lg-3 text-center h-100 text-light">
             <div class="display-4">$150</div>
-            <button class="btn btn-primary w-100">Add to card</button>
+           <a href=" addtocard.html "> <button class="btn btn-primary w-100">Add to card</button></a>
           </div>
        
       </div>
@@ -398,7 +411,7 @@
            </div>
           <div class="col-12 col-md-4 col-lg-3 text-center h-100 text-light">
             <div class="display-4">$150</div>
-            <button class="btn btn-primary w-100">Add to card</button>
+           <a href=" addtocard.html "> <button class="btn btn-primary w-100" >Add to card</button></a>
           </div>
        
       </div>
@@ -424,7 +437,7 @@
            </div>
           <div class="col-12 col-md-4 col-lg-3 text-center h-100 text-light">
             <div class="display-4">$90</div>
-            <button class="btn btn-primary w-100">Add to card</button>
+            <button class="btn btn-primary w-100" href="addtocard.html">Add to card</button>
           </div>
        
       </div>
@@ -450,7 +463,7 @@
            </div>
           <div class="col-12 col-md-4 col-lg-3 text-center h-100 text-light">
             <div class="display-4">$60</div>
-            <button class="btn btn-primary w-100">Add to card</button>
+            <a href=" addtocard.html"><button class="btn btn-primary w-100" >Add to card</button></a>
           </div>
        
       </div>
@@ -499,22 +512,112 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 
+
+  <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog cascading-modal" role="document">
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Modal cascading tabs-->
+      <div class="modal-c-tabs">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+          <li class="nav-item bg-success">
+            <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+              Login</a>
+          </li>
+          <li class="nav-item bg-success">
+            <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
+              Register</a>
+          </li>
+        </ul>
+
+        <!-- Tab panels -->
+        <div class="tab-content">
+          <!--Panel 7-->
+          <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body mb-1">
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-envelope prefix"></i>
+                <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
+              </div>
+
+              <div class="md-form form-sm mb-4">
+                <i class="fas fa-lock prefix"></i>
+                <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
+              </div>
+              <div class="text-center mt-2">
+                <button class="btn btn-info">Log in <i class="fas fa-sign-in ml-1"></i></button>
+              </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-center bg-s text-md-right mt-1">
+                <p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
+                <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+          <!--/.Panel 7-->
+
+          <!--Panel 8-->
+          <div class="tab-pane fade" id="panel8" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body">
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-envelope prefix"></i>
+                <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
+              </div>
+
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-lock prefix"></i>
+                <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
+              </div>
+
+              <div class="md-form form-sm mb-4">
+                <i class="fas fa-lock prefix"></i>
+                <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat password</label>
+              </div>
+
+              <div class="text-center form-sm mt-2">
+                <button class="btn btn-info">Sign up <i class="fas fa-sign-in ml-1"></i></button>
+              </div>
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-right">
+                <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          <!--/.Panel 8-->
+        </div>
+
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: Login / Register Form-->
+
+
+
+<div>
 
 
 </main>
@@ -634,27 +737,57 @@
       </div>
 </div>
   
-<div class="row align-items-center h-100 bg-success">
-  <div class="col-auto flex-grow-0 py-3 d-none d-md-block text-danger">
-    <span>find us on</span>
-  </div>
-  <div class="col-12 col-md-auto text-center mr-auto">
-    <a href="#" class="align-middle p-2 d-inline-block text-danger">
-      <i class="gg-facebook"></i>
-    </a>
-    <a href="#" class="align-middle p-2 d-inline-block text-danger">
-      <i class="gg-instagram"></i>
-    </a>
-    <a href="#" class="align-middle p-2 d-inline-block text-danger">
-      <i class="gg-twitter"></i>
-    </a>
-    <a href="#" class="align-middle p-2 d-inline-block text-danger">
-      <i class="gg-youtube">
-        
-      </i>
-    </a>
-  </div>
+
+    </div>
   <div class="col-12 col-md-auto text-center text-danger">ⒸTumo Center For Creative Technologies</div>
+
+  <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> footballshhop.com</a>
+  </div>
+  <!-- Copyright -->
+
+  
 </div>
 
 
@@ -666,5 +799,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   </body>
 </html>

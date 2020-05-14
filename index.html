@@ -4,14 +4,24 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>FootballShop</title>
   </head>
-  <body class="">
+  <body>
+
     <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="navbar-collapse">
@@ -66,10 +76,10 @@
               My account
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Login</a>
-              <a class="dropdown-item" href="#">Register</a>
+              <a class="dropdown-item"  data-toggle="modal" data-target="#modalLRForm" href="#">Login</a>
+              <a class="dropdown-item" data-toggle="modal" data-target="#modalLRForm" href="#">Register</a>
               <a class="dropdown-item" href="#">My Orders</a>
-              <a class="dropdown-item" href="#">Account Settings</a>
+              <a class="dropdown-item" href="myaccount.html">Account Settings</a>
             </div>
           </div>  
         </div>      
@@ -154,7 +164,7 @@
 </nav>  
 </header>
  <main class="bg-dark" >
-  <div class="container">
+  <div class="container-">
 
 <div class="row">
   <div class="main-row1 alert alert-warning mt-3" id="alert" role="alert">
@@ -164,7 +174,8 @@
           </button>
         </div>
 
-</div>
+</div> 
+
 
 <div class="row mb-4 justify-content-center no-gutters">
   <div class="d-none d-md-block col-md-12">
@@ -185,7 +196,7 @@
         <div class="carousel-caption text-left">
           <h5> Barcelona Jersey</h5>
           <p>Barcelona Nike 2018-2019</p>
-          <a href="#" class="btn btn-primary" role="button">Add To Card</a>
+          <a href="addtocard.html" class="btn btn-primary" role="button">Add To Card</a>
           <a href="product.html" class=" btn btn-success">View Item</a>
 
 
@@ -195,14 +206,14 @@
     </div>
     <div class="carousel-item">
          <div class="row justify-content-center">
-        <div class="col-3">
-      <img src="img/877-8777667_nike-barcelona-home-vapor-match-shirt-barcelona.png" class="d-block w-100" alt="...">
+        <div class="col-3 h-100">
+      <img src="img/mousa-dembele-tottenham-hotspur-third-jersey_02.png" class="d-block w-100" alt="...">
       </div>
-      <div class="col-4">
+      <div class="col-4 ">
         <div class="carousel-caption text-left">
-          <h5> Barcelona Jersey</h5>
-          <p>Barcelona Nike 2018-2019</p>
-          <a href="#" class="btn btn-primary" role="button">Add To Card</a>
+          <h5>Tottenham Jersey </h5>
+          <p>Tottenham Nike 2018-2019 Third Jersey</p>
+          <a href="addtocard.html" class="btn btn-primary" role="button">Add To Card</a>
           <a href="product.html" class=" btn btn-success">View Item</a>
 
 
@@ -213,13 +224,13 @@
     <div class="carousel-item">
         <div class="row justify-content-center">
         <div class="col-3">
-      <img src="img/877-8777667_nike-barcelona-home-vapor-match-shirt-barcelona.png" class="d-block w-100" alt="...">
+      <img src="img/schalke-04-18-19-away-jersey.png" class="d-block w-100" alt="...">
       </div>
       <div class="col-4">
         <div class="carousel-caption text-left">
-          <h5> Barcelona Jersey</h5>
-          <p>Barcelona Nike 2018-2019</p>
-          <a href="#" class="btn btn-primary" role="button">Add To Card</a>
+          <h5> Schalke 04 Jersey</h5>
+          <p>schalke 04 2018-2019 Away Jersey</p>
+          <a href="addtocard.html" class="btn btn-primary" role="button">Add To Card</a>
           <a href="product.html" class=" btn btn-success">View Item</a>
 
 
@@ -265,48 +276,59 @@
 
 
   <div class="card col-md-2 col-12 mb-3 mt-3 mx-auto">
-  <img src="img/wolves-hk-1819-516x680-3-.png" class="card-img-top " alt="...">
+    <a href="product.html">
+  <img src="img/wolves-hk-1819-516x680-3-.png" href="" class="card-img-top imgsize " alt="...">
+  </a>
   <div class="card-body">
-    <h5 class="card-title">Wolves Home Jersey 18-19</h5>
+    <a href="product.html"><h5>Wolves Home Jersey 18-19</h5></a>
      <h6 class="card-text text-danger daily-text">170$</h6>
         <h6 class="card-text text-primary">90$</h6>
-    <a href="#" class="btn btn-primary">Add to card</a>
+    <a href="addtocard.html" class="btn btn-primary">Add to card</a>
   </div>
 </div>
   <div class="card col-md-2 col-12 mt-3 mb-3 mx-auto">
-  <img src="img/BHA_HK_516-1-.png" class="card-img-top " alt="...">
+    <a href="product.html">
+  <img src="img/BHA_HK_516-1-.png" class="card-img-top imgsize " alt="...">
+  </a>
   <div class="card-body">
-    <h5 class="card-title">Brigthon Home Jersey 19-20</h5>
+    <a href="product.html">
+    <h5 class="card-title">Brigthon Home Jersey 19-20</h5></a>
     <h6 class="card-text text-danger daily-text">170$</h6>
         <h6 class="card-text text-primary">90$</h6>
-    <a href="#" class="btn btn-primary">Add to card</a>
+    <a href="addtocard.html" class="btn btn-primary">Add to card</a>
   </div>
 </div>
    <div class="card col-md-2 col-12 mt-3 mb-3 mx-auto">
-  <img src="img/everton-hk-1819-516x680-1-.png" class="card-img-top " alt="...">
+    <a href="product.html">
+  <img src="img/everton-hk-1819-516x680-1-.png" class="card-img-top imgsize " alt="...">
+  </a>
   <div class="card-body">
-    <h5 class="card-title">Everton Home Jersey 18-19</h5>
+    <a href="product.html"><h5 class="card-title">Everton Home Jersey 18-19</h5></a>
     <h6 class="card-text text-danger daily-text">170$</h6>
         <h6 class="card-text text-primary ">90$</h6>
-    <a href="#" class="btn btn-primary">Add to card</a>
+    <a href="addtocard.html" class="btn btn-primary">Add to card</a>
   </div>
 </div>
    <div class="card col-md-2 col-12 mt-3 mb-3 mx-auto">
-  <img src="img/CRY_HK_516.png" class="card-img-top " alt="...">
+    <a href="product.html">
+  <img src="img/CRY_HK_516.png" class="card-img-top imgsize" alt="...">
+  </a>
   <div class="card-body">
-    <h5 class="card-title">Crystal P Home Jersey 18-19</h5>
+    <a href="product.html"><h5 class="card-title">Crystal P Home Jersey 18-19</h5></a>
     <h6 class="card-text text-danger daily-text">170$</h6>
         <h6 class="card-text text-primary">90$</h6>
-    <a href="#" class="btn btn-primary">Add to card</a>
+    <a href="addtocard.html" class="btn btn-primary">Add to card</a>
   </div>
 </div>
    <div class="card col-md-2 col-12 mt-3 mb-3 mx-auto">
-  <img src="img/NEW_HK_516-1-.png" class="card-img-top " alt="...">
+    <a href="product.html">
+  <img src="img/NEW_HK_516-1-.png" class="card-img-top imgsize" alt="...">
+  </a>
   <div class="card-body">
-    <h5 class="card-title">Newcastle Home Jersey 18-19</h5>
+    <a href="product.html"><h5 class="card-title">Newcastle Home Jersey 18-19</h5></a>
     <h6 class="card-text text-danger daily-text">170$</h6>
       <h6 class="card-text text-primary">90$</h6>
-    <a href="#" class="btn btn-primary">Add to card</a>
+    <a href="addtocard.html" class="btn btn-primary">Add to card</a>
   </div>
 </div>
   
@@ -314,54 +336,54 @@
 
 
 <div class="row justify-content-center bg-danger pb-2">
-  <h2 class="col-12 text-center display-4 text-white">Categories</h2>
+  <h2 class="col-12 text-center display-4 font-weight-bold text-success">Categories</h2>
   <div class="col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
-    <img src="img/unnamed.png" alt class="d-none d-md-block img-fluid mb-3">
+    <img src="img/unnamed.png" alt class="d-none d-md-block img-fluid mb-3 cardsize">
     <a href="shop.html" class="btn-sm btn btn-outline-danger stretched-link">La Liga</a>
   </div>
   <div class="col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
-    <img src="img/58837708.png" alt class="d-none d-md-block img-fluid mb-3">
+    <img src="img/58837708.png" alt class="d-none d-md-block img-fluid mb-3 cardsize">
     <a href="shop.html" class="btn-sm btn btn-outline-danger stretched-link">Premier League</a>
   </div>
   <div class="col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
-    <img src="img/unnamed (1).png" alt class="d-none d-md-block img-fluid mb-3">
+    <img src="img/unnamed (1).png" alt class="d-none d-md-block img-fluid mb-3 cardsize">
     <a href="shop.html" class="btn-sm btn btn-outline-danger stretched-link">Bundes Liga</a>
   </div>
   <div class="col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
-    <img src="img/1200px-Ligue1.svg.png" alt class="d-none d-md-block img-fluid mb-3">
+    <img src="img/1200px-Ligue1.svg.png" alt class="d-none d-md-block img-fluid mb-3 cardsize">
     <a href="shop.html" class="btn-sm btn btn-outline-danger stretched-link">Ligue 1</a>
   </div>
   <div class="col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
-    <img src="img/Serie_A_2019.png" alt class="d-none d-md-block img-fluid mb-3">
+    <img src="img/Serie_A_2019.png" alt class="d-none d-md-block img-fluid mb-3 cardsize">
     <a href="shop.html" class="btn-sm btn btn-outline-danger stretched-link">Seria A</a>
   </div>
   <div class="w-100"></div>
   <div class="col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
-    <img src="img/764px-Liga_NOS_logo.png" alt class="d-none d-md-block img-fluid mb-3">
+    <img src="img/764px-Liga_NOS_logo.png" alt class="d-none d-md-block img-fluid mb-3 cardsize">
     <a href="shop.html" class="btn-sm btn btn-outline-danger stretched-link">Liga NOS</a>
   </div>
   <div class="col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
-    <img src="img/1200px-Spain_national_football_team_crest.svg.png" alt class="d-none d-md-block img-fluid mb-3">
+    <img src="img/1200px-Spain_national_football_team_crest.svg.png" alt class="d-none d-md-block cardsize img-fluid mb-3">
     <a href="shop.html" class="btn-sm btn btn-outline-danger stretched-link">Spain National</a>
   </div>
   <div class="col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
-    <img src="img/1200px-England_national_football_team_crest.svg.png" alt class="d-none d-md-block img-fluid mb-3">
+    <img src="img/1200px-England_national_football_team_crest.svg.png" alt class="d-none cardsize d-md-block img-fluid mb-3">
     <a href="shop.html" class="btn-sm btn btn-outline-danger stretched-link">England National</a>
   </div>
   <div class="col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
-    <img src="img/german-football-association-logo-8D52D1B56C-seeklogo.com.png" alt class="d-none d-md-block img-fluid mb-3">
+    <img src="img/german-football-association-logo-8D52D1B56C-seeklogo.com.png" alt class="d-none  cardsize d-md-block img-fluid mb-3">
     <a href="shop.html" class="btn-sm btn btn-outline-danger stretched-link">Germany National</a>
   </div>
   <div class="col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
-    <img src="img/1200px-France_national_football_team_seal.svg.png" alt class="d-none d-md-block img-fluid mb-3">
+    <img src="img/1200px-France_national_football_team_seal.svg.png" alt class=" cardsize d-none d-md-block img-fluid mb-3">
     <a href="shop.html" class="btn-sm btn btn-outline-danger stretched-link">France National</a>
   </div>
-  <div class="col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
-    <img src="img/1200px-FIGC_Logo_2017.svg.png" alt class="d-none d-md-block img-fluid mb-3">
+  <div class="  col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
+    <img src="img/1200px-FIGC_Logo_2017.svg.png" alt class=" cardsize d-none d-md-block img-fluid mb-3">
     <a href="shop.html" class="btn-sm btn btn-outline-danger stretched-link">Italy National</a>
   </div>
-  <div class="col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
-    <img src="img/96d97eadc822aafbc7062c6646da0c47-portugal-football-team-logo-by-vexels.png" alt class="d-none d-md-block img-fluid mb-3">
+  <div class="  col-6 col-md-1 col-sm-auto text-center m-0 m-md-2 border p-0 p-md-2 rounded bg-success my-sm-0 p-sm-0">
+    <img src="img/96d97eadc822aafbc7062c6646da0c47-portugal-football-team-logo-by-vexels.png" alt class=" cardsize d-none d-md-block img-fluid mb-3">
     <a href="shop.html" class="btn-sm btn btn-outline-danger stretched-link">Portugal National</a>
   </div>
 
@@ -385,13 +407,15 @@
     <div class="row bg-success">
       <h class="mx-auto">New Jerseys</h1>
     </div>
-<div class="row border ">
+<div class="row border">
 
   
   <div class="card col-md-2 col-12" >
+    <a href="product.html">
   <img src="img/eh5635_app_virtual_standard_transparent.png" class="card-img-top mh-100  daily-text" alt="...">
+  </a>
   <div class="card-body ">
-    <h5 class="card-title">Arsenal FC 19-20 Away Jersey</h5>
+    <a href="product.html"><h5 class="card-title">Arsenal FC 19-20 Away Jersey</h5></a>
     <p class="card-text text-danger daily-text">120$</p>
     <p class="card-text text-primary mr-">200$</p>
     <br>
@@ -400,43 +424,50 @@
   </div>
 </div>
   <div class="card col-md-2 col-12" >
+    <a href="product.html">
   <img src="img/140d07f9bb25dedc540aa38834a74728.png" class="card-img-top mh-100  " alt="...">
+  </a>
   <div class="card-body">
-    <h5 class="card-title">Porto Third Jersey 19-20</h5>
+   <a href="product.html"> <h5 class="card-title">Porto Third Jersey 19-20</h5></a>
     <br>
     <p class="card-text text-danger daily-text">150$</p>
     <p class="card-text text-primary">80$</p>
     <br>
-    <a href="#" class="btn btn-primary">Add to card</a>
+    <a href="addtocard.html" class="btn btn-primary">Add to card</a>
   </div>
 </div>
 <div class="card col-md-2 col-12" >
+  <a href="product.html">
   <img src="img/PSG-Heim-Trikot-2019-20.png" class="card-img-top  daily-text" alt="...">
   <div class="card-body">
-    <h5 class="card-title">PSG Home Jersey 19-20</h5>
+
+   <a href="product.html"> <h5 class="card-title">PSG Home Jersey 19-20</h5></a>
     <br>
     <p class="card-text text-danger daily-text">120$</p>
        <p class="card-text text-primary">200$</p>
        <br>
-    <a href="#" class="btn btn-primary">Add to card</a>
+    <a href="addtocard.html" class="btn btn-primary">Add to card</a>
   </div>
 </div>
 <div class="card col-md-2 col-12" >
+  <a href="product.html">
   <img src="img/894431-489-manchester-city-home-jersey.png" class="card-img-top  daily-text" alt="...">
+  </a>
   <div class="card-body">
-    <h5 class="card-title">Manchester City Home Jersey 18-19</h5>
+    <a href="product.html"><h5 class="card-title">Manchester City Home Jersey 18-19</h5></a>
     <p class="card-text  text-danger daily-text">200$</p>
         <p class="card-text  text-primary">120$</p>
         <br>
 
-    <a href="#" class="btn btn-primary">Add to card</a>
+    <a href="addtocard.html" class="btn btn-primary">Add to card</a>
   </div>
 </div>
 <div class="card col-md-2 col-12" >
-  <img src="img/dw5455_app_photo_front-center_transparent_1_.png
+  <a href="product.html">  <img src="img/dw5455_app_photo_front-center_transparent_1_.png
 " class="card-img-top  " alt="...">
+</a>
   <div class="card-body">
-    <h5 class="card-title">Juventus Home Jersey 19-20</h5>
+   <a href="product.html"> <h5 class="card-title">Juventus Home Jersey 19-20</h5></a>
     <p class="card-text  text-danger daily-text">200$</p>
         <p class="card-text  text-primary">100$</p>
           <br>
@@ -444,16 +475,19 @@
   </div>
 </div>
 <div class="card col-md-2 col-12 " >
+   <a href="product.html">
   <img src="img/5.png
 " class="card-img-top  " alt="...">
+</a>
   <div class="card-body">
-    <h5 class="card-title">Sevilla Away Jersey 19-20</h5>
+
+   <a href="product.html"><h5 class="card-title">Sevilla Away Jersey 19-20</h5></a>
     <br>
     <p class="card-text text-danger daily-text">200$</p>
     
         <p class="card-text text-primary">120$</p>
 <br>
-    <a href="#" class="btn btn-primary">Add to card</a>
+    <a href="addtocard.html" class="btn btn-primary">Add to card</a>
   </div>
 </div>
  
@@ -461,7 +495,7 @@
 
 
 <nav class="col-12  ">
-            <ul class="pagination justify-content-center ">
+            <ul class="pagination justify-content-center bg-light ">
               <li class="page-item ">
                 <a class="page-link" href="index.html">Previous</a>
               </li>
@@ -482,20 +516,310 @@
 
 
 
+<!--Grid row-->
+<div class="row">
 
+  <!--Grid column-->
+  <div class="col-md-6 mb-4">
 
+    <!-- Card -->
+    <div class="card gradient-card">
 
+        <div class="card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg)">
 
+          <!-- Content -->
+          <a href="#!">
+            <div class="text-white d-flex h-100 mask blue-gradient-rgba">
+              <div class="first-content align-self-center p-3">
+                <h3 class="card-title">Today's sales</h3>
+                <p class="lead mb-0">Click on this card to see details</p>
+              </div>
+              <div class="second-content align-self-center mx-auto text-center">
+                <i class="far fa-money-bill-alt fa-3x"></i>
+              </div>
+            </div>
+          </a>
 
+        </div>
 
+        <!-- Data -->
+        <div class="third-content ml-auto mr-4 mb-2">
+          <p class="text-uppercase text-muted">Today's sale</p>
+          <h4 class="font-weight-bold float-right">2000$</h4>
+        </div>
 
+        <!-- Content -->
+        <div class="card-body white">
+          <div class="progress md-progress">
+            <div class="progress-bar bg-primary" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <p class="text-muted">Better than last week (25%)</p>
+         
+         
+        </div>
 
+    </div>
+    <!-- Card -->
+
+  </div>
+  <!--Grid column-->
+
+  <!--Grid column-->
+  <div class="col-md-6 mb-4">
+
+    <!-- Card -->
+    <div class="card gradient-card">
+
+        <div class="card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+
+          <!-- Content -->
+          <a href="#!">
+            <div class="text-white d-flex h-100 mask purple-gradient-rgba">
+              <div class="first-content align-self-center p-3">
+                <h3 class="card-title">Subscriptions</h3>
+                <p class="lead mb-0">Click on this card to see details</p>
+              </div>
+              <div class="second-content  align-self-center mx-auto text-center">
+                <i class="fas fa-chart-line fa-3x"></i>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- Data -->
+        <div class="third-content  ml-auto mr-4 mb-2">
+          <p class="text-uppercase text-muted">Subscriptions</p>
+          <h4 class="font-weight-bold float-right">200</h4>
+        </div>
+
+        <!-- Content -->
+        <div class="card-body white">
+          <div class="progress md-progress">
+            <div class="progress-bar purple lighten-2" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <p class="text-muted">Worse than last week (25%)</p>
+         
+         
+        </div>
+
+    </div>
+    <!-- Card -->
+
+  </div>
+  <!--Grid column-->
+
+  <!--Grid column-->
+  <div class="col-md-6 mb-4">
+
+    <!-- Card -->
+    <div class="card gradient-card">
+
+        <div class="card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+
+          <!-- Content -->
+          <a href="#!">
+            <div class="text-white d-flex h-100 mask peach-gradient-rgba">
+              <div class="first-content align-self-center p-3">
+                <h3 class="card-title">Traffic</h3>
+                <p class="lead mb-0">Click on this card to see details</p>
+              </div>
+              <div class="second-content  align-self-center mx-auto text-center">
+                <i class="fas fa-chart-pie fa-3x"></i>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- Data -->
+        <div class="third-content  ml-auto mr-4 mb-2">
+          <p class="text-uppercase text-muted">Traffic</p>
+          <h4 class="font-weight-bold float-right">20000</h4>
+        </div>
+
+        <!-- Content -->
+        <div class="card-body white animated">
+          <div class="progress md-progress">
+            <div class="progress-bar amber darken-3" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <p class="text-muted">Worse than last week (75%)</p>
+          
+         
+        </div>
+
+    </div>
+    <!-- Card -->
+
+  </div>
+  <!--Grid column-->
+
+  <!--Grid column-->
+  <div class="col-md-6 mb-4">
+
+    <!-- Card -->
+    <div class="card gradient-card">
+
+        <div class="card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+
+          <!-- Content -->
+          <a href="#!">
+            <div class="text-white d-flex h-100 mask aqua-gradient-rgba">
+              <div class="first-content align-self-center p-3">
+                <h3 class="card-title">Organic traffic</h3>
+                <p class="lead mb-0">Click on this card to see details</p>
+              </div>
+              <div class="second-content  align-self-center mx-auto text-center">
+                <i class="fas fa-chart-line fa-3x"></i>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- Data -->
+        <div class="third-content  ml-auto mr-4 mb-2">
+          <p class="text-uppercase text-muted">Organic traffic</p>
+          <h4 class="font-weight-bold float-right">2000</h4>
+        </div>
+
+        <!-- Content -->
+        <div class="card-body white">
+          <div class="progress md-progress">
+            <div class="progress-bar cyan lighten-1" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <p class="text-muted">Better than last week (50%)</p>
+          
+          
+        </div>
+
+    </div>
+    <!-- Card -->
+
+  </div>
+  <!--Grid column-->
 
 </div>
+<!--Grid row-->
 
+
+
+<!--Modal: Login / Register Form-->
+<div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog cascading-modal" role="document">
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Modal cascading tabs-->
+      <div class="modal-c-tabs">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+          <li class="nav-item bg-success">
+            <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+              Login</a>
+          </li>
+          <li class="nav-item bg-success">
+            <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
+              Register</a>
+          </li>
+        </ul>
+
+        <!-- Tab panels -->
+        <div class="tab-content">
+          <!--Panel 7-->
+          <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body mb-1">
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-envelope prefix"></i>
+                <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
+              </div>
+
+              <div class="md-form form-sm mb-4">
+                <i class="fas fa-lock prefix"></i>
+                <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
+              </div>
+              <div class="text-center mt-2">
+                <button class="btn btn-info">Log in <i class="fas fa-sign-in ml-1"></i></button>
+              </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-center bg-s text-md-right mt-1">
+                <p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
+                <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+          <!--/.Panel 7-->
+
+          <!--Panel 8-->
+          <div class="tab-pane fade" id="panel8" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body">
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-envelope prefix"></i>
+                <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
+              </div>
+
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-lock prefix"></i>
+                <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
+              </div>
+
+              <div class="md-form form-sm mb-4">
+                <i class="fas fa-lock prefix"></i>
+                <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat password</label>
+              </div>
+
+              <div class="text-center form-sm mt-2">
+                <button class="btn btn-info">Sign up <i class="fas fa-sign-in ml-1"></i></button>
+              </div>
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-right">
+                <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          <!--/.Panel 8-->
+        </div>
+
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: Login / Register Form-->
+
+
+
+
+
+
+
+
+
+
+
+ 
+</div>
     
  </main>
- >
+ 
  <footer class="page-footer  pt-4 bg-danger " >
  <div class="container  ">
    <div class="row">
@@ -608,28 +932,57 @@
       </div>
       </div>
 </div>
-   
-<div class="row align-items-center h-100 bg-success">
-  <div class="col-auto flex-grow-0 py-3 d-none d-md-block text-danger">
-    <span>find us on</span>
-  </div>
-  <div class="col-12 col-md-auto text-center mr-auto">
-    <a href="#" class="align-middle p-2 d-inline-block text-danger">
-      <i class="gg-facebook"></i>
-    </a>
-    <a href="#" class="align-middle p-2 d-inline-block text-danger">
-      <i class="gg-instagram"></i>
-    </a>
-    <a href="#" class="align-middle p-2 d-inline-block text-danger">
-      <i class="gg-twitter"></i>
-    </a>
-    <a href="#" class="align-middle p-2 d-inline-block text-danger">
-      <i class="gg-youtube">
-        
-      </i>
-    </a>
-  </div>
+  
+ 
   <div class="col-12 col-md-auto text-center text-danger">ⒸTumo Center For Creative Technologies</div>
+      <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/">footballshop.com</a>
+  </div>
+  <!-- Copyright -->
+
+  
 </div>
 
 
@@ -641,5 +994,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   </body>
 </html>

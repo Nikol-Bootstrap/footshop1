@@ -4,6 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Google Fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
@@ -18,7 +20,8 @@
 
     <title>FootballShop</title>
   </head>
-  <body class="">
+  <body>
+
     <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="navbar-collapse">
@@ -57,7 +60,7 @@
         <div class="col-lg-6 col-sm-9">
            <nav class="navbar navbar-expand-lg navbar-dark bg-success">
  <a class="navbar-brand" href="#">
-   <a href="index.html"><img src=" img/unnamed.jpg" width="250"  alt=""></a>
+   <a href="index.html"><img src="img/unnamed.jpg" width="250"  alt=""></a>
      
   </a></nav>
         </div>
@@ -73,8 +76,8 @@
               My account
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" data-toggle="modal" data-target="modalLRForm" href="#">Login</a>
-              <a class="dropdown-item"  data-toggle="modal" data-target="modalLRForm" href="#">Register</a>
+              <a class="dropdown-item"  data-toggle="modal" data-target="#modalLRForm" href="#">Login</a>
+              <a class="dropdown-item" data-toggle="modal" data-target="#modalLRForm" href="#">Register</a>
               <a class="dropdown-item" href="#">My Orders</a>
               <a class="dropdown-item" href="myaccount.html">Account Settings</a>
             </div>
@@ -161,195 +164,120 @@
 </nav>  
 </header>
 
-<main class=" bg-success">
-  
-<div class="container ">
-  <nav aria-label="breadcrumb" class="row bg-success">
-      <ol class="breadcrumb mt-3 col mr-auto">
-        <li class="breadcrumb-item">
-          <a href="shop.html">Jerseys</a>
-        </li>
-        <li class="breadcrumb-item">
-          
-          <a href="shop.html">Mens</a>
-        </li>
-        <li class="breadcrumb-item active" aria-current="page">
-        
-          "Kids"
-        </li>
-      </ol>
-      <form action class="form-inline col-12 col-md-auto" >
-        <label for="sortB " class="mr-2 text-light">Sort By</label>
-        <select class="custom-select" id="sortB">
-          <option value="1">Pric: Low to High</option>
-          <option value="2">Pric: High to Low</option>
-          <option value="3">Pric: Rating</option>
-        </select>
-      </form>
-    </nav>
-  <div class="row">
-    <div class="col-12">
-      <h2 class="text-primary font-weight-bold">Men's adidas Green Real Madrid 2019/20 Third Authentic Jersey</h2>
-    </div>
+
+
+<main>
+  <div class="container">
     <div class="row">
-      <div class="col-12 col-md-6 ">
-        <div class="row">
-          <div class="col-3">
-            <a class="border d-inline-block m-1 p-1 " data-fancybox="gallery" href="img/Real-Madrid-17-18-Home-Full-Kit.png">
-              <img class="img-fluid" src="img/Real-Madrid-17-18-Home-Full-Kit.png">
-            </a>
-             <a class="border d-inline-block m-1 p-1 " data-fancybox="gallery" href="img/ae2910cb4580a8195d4ae496ffbf1db9.png">
-              <img class="img-fluid" src="img/ae2910cb4580a8195d4ae496ffbf1db9.png">
-            </a>
-             <a class="border d-inline-block m-1 p-1 " data-fancybox="gallery" href="img/Real-Madrid-2017-18-Third-Soccer-Jersey.png">
-              <img class="img-fluid" src="img/Real-Madrid-2017-18-Third-Soccer-Jersey.png">
-            </a>
-          </div>
-          <div class="col">
-            <a class data-fancybox="gallery" href="img/b31111_01_1.png">
-              <img class="img-fluid" src="img/b31111_01_1.png">
-            </a>
-          </div>
+       <div class=" col-6 col-sm-6 col-md-12 p-2 product-card border">
+         <div class="row align-items-center">
+        <div class="col-12 col-md-4 col-lg-3">
+          
+          <img class="w-100" src="img/b31111_01_1.png" alt>
+          
         </div>
-      </div>
-      <div class="col-12 col-md-6">
-        <div class="row">
-          <div class="col-12">
-            <h3 class="font-weight-bold">$150</h3>
-          </div>
-        </div>
-        <form class="w-100 row" >
-          <div class="col-12 col-md-5">
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <span class="input-group-text" id="inper">Quanity</span>
-              </div>
-              <input type="text" class="form-control " aria-describedby="inper" value="1" name="">
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <a href="addtocard.html" class="btn btn-primary">Add to card</a>
-          </div>
-        </form>
-        <div class="row">
-          <div class="col-12">
-            <p class="font-weight-bold my-2">Options</p>
-          </div>
-        <div class="col-12">
-          <form action>
-            <div class="custom-control custom-switch custom-control-inline">
-              <input type="checkbox" id="number" class="custom-control-input" name="">
-              <label class="custom-control-label" for="number">Number</label>
-            </div>
-             <div class="custom-control custom-switch custom-control-inline">
-              <input type="checkbox" id="name" class="custom-control-input" name="">
-              <label class="custom-control-label" for="name">Name</label>
-            </div>
-             <div class="custom-control custom-switch custom-control-inline">
-              <input type="checkbox" id="shr" class="custom-control-input" name="">
-              <label class="custom-control-label" for="shr">Shorts</label>
-            </div>
-          </form>
-        </div>       
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <p class="font-weight-bold">H A T</p>
-          </div>
-          <div class="col-12">
-            <form>
-              <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio " class="custom-control-input" id="home" name="customRadioInline1">
-                <label class="custom-control-label" for="home">Home</label>
-              </div>
-              <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio " class="custom-control-input" id="away" name="customRadioInline1">
-                <label class="custom-control-label" for="away">Away</label>
-              </div>
-              <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio " class="custom-control-input" id="third" name="customRadioInline1">
-                <label class="custom-control-label" for="third">Third</label>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-
-     </div>
-
-
-             
+        <div class="col-12 col-md-4 col-lg-6">
+          <h6 class=" text-primary text-decoration-none">
+           
+              Real Madrid Home Jersey
+           
+          </h6>
+          <ul class=" d-none d-lg-block text-light">
+            <li class="text-primary">L</li>
+            <li class="text-primary">Shorts No</li>
+            <li class=" text-primary">Socks No</li>
+          </ul>
            </div>
-
-
-         </div>
-         </div>
-       </div>
-       <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-      aria-controls="pills-home" aria-selected="true">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-      aria-controls="pills-profile" aria-selected="false">Profile</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-      aria-controls="pills-contact" aria-selected="false">Contact</a>
-  </li>
-</ul>
-<div class="tab-content pt-2 pl-1 " id="pills-tabContent">
-  <div class="tab-pane fade show active justify-content-center" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Consequat
-    occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat
-    velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo
-    anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing
-    minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt
-    nostrud.</div>
-  <div class="tab-pane fade justify-content-center" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Ad
-    pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt
-    amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id
-    incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis
-    deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.</div>
-  <div class="tab-pane fade text-center" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Est
-    quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua irure ex.
-    Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam. Eiusmod minim
-    exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit
-    aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse irure officia
-    elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum commodo sunt
-    tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
-    reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco sunt
-    ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat aliqua pariatur
-    mollit voluptate voluptate consequat non.</div>
-</div>
-     </div> 
+          <div class="col-12 col-md-4 col-lg-3 text-center h-100 text-light">
+            <div class="display-4 text-primary">$150</div>
+           
+          </div>
+     </div>
+      <div class="row">
+    <div class="paymentCont">
+            <div class="headingWrap">
+                <h3 class="headingTop text-center">Select Your Payment Method</h3>  
+                
+            </div>
+            <div class="paymentWrap">
+              <div class="btn-group paymentBtnGroup btn-group-justified" data-toggle="buttons">
+                      <label class="btn paymentMethod active  col-md-block col-12">
+                        <div class="method visa"></div>
+                          <input type="radio" name="options" checked> 
+                      </label>
+                      <label class="btn paymentMethod col-12 col-md-block">
+                        <div class="method master-card"></div>
+                          <input type="radio" name="options"> 
+                      </label> 
+                      <label class="btn paymentMethod col-12 col-md-block">
+                        <div class="method amex"></div>
+                          <input type="radio" name="options">
+                      </label>
+                       <label class="btn paymentMethod col-12 col-md-block">
+                        <div class="method vishwa"></div>
+                          <input type="radio" name="options"> 
+                      </label>
+                      
+                  </div>        
+            </div>
+            
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  </div>
+  <div class="col-xs-12 col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        Payment Details
+                    </h3>
+                    <div class="checkbox pull-right">
+                        <label>
+                            <input type="checkbox" />
+                            Remember
+                        </label>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <form role="form">
+                    <div class="form-group">
+                        <label for="cardNumber">
+                            CARD NUMBER</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number"
+                                required autofocus />
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-7 col-md-7">
+                            <div class="form-group">
+                                <label for="expityMonth">
+                                    EXPIRY DATE</label>
+                                <div class="col-xs-6 col-lg-6 pl-ziro">
+                                    <input type="text" class="form-control" id="expityMonth" placeholder="MM" required />
+                                </div>
+                                <div class="col-xs-6 col-lg-6 pl-ziro">
+                                    <input type="text" class="form-control" id="expityYear" placeholder="YY" required /></div>
+                            </div>
+                        </div>
+                        <div class="col-xs-5 col-md-5 pull-right">
+                            <div class="form-group">
+                                <label for="cvCode">
+                                    CV CODE</label>
+                                <input type="password" class="form-control" id="cvCode" placeholder="CV" required />
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            
+              
+            </ul>
+            <br/>
+            <a href="shipping.html" class="btn btn-success btn-lg btn-block" role="button">SHIPPING</a>
+        </div>
+  </div>
+  <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog cascading-modal" role="document">
     <!--Content-->
     <div class="modal-content">
@@ -449,21 +377,6 @@
 </div>
 <!--Modal: Login / Register Form-->
 
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
 </main>
 
 
@@ -473,9 +386,7 @@
 
 
 
-
-
-<footer class="page-footer  pt-4 badge-danger " >
+ <footer class="page-footer  pt-4 bg-danger " >
  <div class="container  ">
    <div class="row">
          <div class="col-md-3 col-12 border  text-dark" ><a href=""><h5>Contact us</h5></a></div>
@@ -587,14 +498,10 @@
       </div>
       </div>
 </div>
-
-
-
-        
-      </i>
-    </a>
-  </div>
-     <!-- Grid row-->
+  
+ 
+  <div class="col-12 col-md-auto text-center text-danger">ⒸTumo Center For Creative Technologies</div>
+      <!-- Grid row-->
     <div class="row">
 
       <!-- Grid column -->
@@ -643,12 +550,6 @@
 
   
 </div>
-  <div class="col-12 col-md-auto text-center text-danger">ⒸTumo Center For Creative Technologies</div>
-</div>
-
-
-
-
 
 
  </div>
@@ -663,4 +564,3 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   </body>
 </html>
-
