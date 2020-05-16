@@ -4,6 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" type="text/css" href="style.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Google Fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
@@ -14,8 +16,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+   
     <title>FootballShop</title>
   </head>
   <body class="">
@@ -162,19 +163,19 @@
 </header>
  <main class="bg-light" >
   <div class="container">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-      aria-controls="pills-home" aria-selected="true">Home</a>
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+      aria-selected="true">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="pills-info-tab" data-toggle="pill" href="#pills-info" role="tab"
-      aria-controls="pills-info" aria-selected="false">Profile</a>
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+      aria-selected="false">Profile</a>
   </li>
   
 </ul>
-<div class="tab-content pt-2 pl-1" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
      <div class="row">
       <h2 class="font-weight-bold text-uppercase text-center mx-auto text-danger">MY ACCOUNTS</h2>
     </div>
@@ -316,36 +317,33 @@
   
   <div class="card-body">
 
-   <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Order#</th>
-      <th scope="col">Order Date</th>
-      <th scope="col">Total</th>
-      
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th  class="text-primary" scope="row">394383489</th>
-      <td>12/09/2018</td>
-      <td>$150</td>
-      
-    </tr>
-    <tr>
-      <th class="text-primary"  scope="row">5476543545</th>
-      <td>12/01/2009</td>
-      <td>120$</td>
-      
-    </tr>
-    <tr>
-      <th class="text-primary" scope="row">23389543</th>
-      <td>13/09/2019</td>
-      <td>$80</td>
-      
-    </tr>
-  </tbody>
-</table> 
+   <div class=" col-6 col-sm-6 col-md-12 p-2 product-card border">
+           <div class="row align-items-center">
+        <div class="col-12 col-md-4 col-lg-3">
+          <a href="product.html">
+            <img class="w-100" src="img/Granada_2016–17_home.png" alt>
+                    </a>
+
+        </div>
+        <div class="col-12 col-md-4 col-lg-6">
+          <h6>
+            <a href="product.html" class="text-decoration-none">
+             Granada  Home Jersey 
+            </a>
+          </h6>
+          <ul class=" d-none d-lg-block text-light">
+            <li>Size S M L</li>
+            <li>Nike</li>
+            <li>Best Jerseys</li>
+          </ul>
+           </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center h-100 text-light">
+            <div class="display-4">$150</div>
+           <a href=" addtocard.html "> <button class="btn btn-primary w-100" >Add to card</button></a>
+          </div>
+       
+      </div>
+        </div>
 
 
 
@@ -360,10 +358,177 @@
 
 
 </div>
-    <div class="tab-pane fade" id="pills-info" role="tabpanel" aria-labelledby="pills-info-tab">
-                              
-    </div>
 
+    </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+       <div class="container emp-profile">
+            <form method="post">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="profile-img">
+                            <img src="" alt=""/>
+                            <div class="file btn btn-lg btn-primary">
+                                Change Photo
+                                <input type="file" name="file"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="profile-head">
+                                    <h5>
+                                        Nikol Nikoghosyan
+                                    </h5>
+                                    
+                                    <p class="proile-rating">RANKINGS : <span>8/10</span></p>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="profile-work">
+                            <p> LINKS</p>
+                            <a href="">Link</a><br/>
+                            <a href="">My Events</a><br/>
+                            <a href="">Bootply Profile</a>
+                            <p>LINKS</p>
+                            <a href="">My Orders</a><br/>
+                            <a href="">My WIshlists</a><br/>
+                            <a href="">My Card</a><br/>
+                          
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="tab-content profile-tab" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>User Id</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Nikol123</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Name</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Nikol Nikoghosyan</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Email</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>nikol.n.g@tumo.org.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Phone</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>+374000000</p>
+                                            </div>
+                                        </div>
+                                        
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Experience</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Expert</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Hourly Rate</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>10$/hr</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Total Projects</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>230</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>English Level</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Expert</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>My Orders</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>6 months</p>
+                                            </div>
+                                        </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label>Your Bio</label><br/>
+                                        <p>Your detail description</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>           
+                 <div class="row">
+                   <div class="col-md-12 border-top">
+                     <h5>Payment Options</h5>
+                     <p>             Manage saved credit cards. New payment methods may only be added in checkout due to verification requirements.
+</p>
+                   </div>
+                 </div>
+                   <div class="row">
+                   <div class="col-md-12 border-top">
+                     <h5>Billing and Shipping</h5>
+                     <p>            Make Chance to your billing and shipping information and save orders
+</p>
+                   </div>
+                 </div>
+                   <div class="row">
+                   <div class="col-md-12 border-top">
+                     <h5>My EVents</h5>
+                 
+                   </div>
+                 </div>
+                   <div class="row">
+                   <div class="col-md-12 border-top">
+                     <h5>Payment Options</h5>
+                     <p>             Manage saved credit cards. New payment methods may only be added in checkout due to verification requirements.
+</p>
+                   </div>
+                 </div>
+        </div>
+  </div>
+ 
+
+    
+    
 
 
 
